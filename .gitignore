@@ -7,7 +7,6 @@ Cargo.lock
 **/*.rs.bk
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -23,8 +22,6 @@ dist/
 .yarn/
 
 # Environment
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -66,3 +63,4 @@ coverage/
 
 # Soroban Test Snapshots
 smartcontract/test_snapshots/
+config.bat
